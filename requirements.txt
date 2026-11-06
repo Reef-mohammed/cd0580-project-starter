@@ -1,3 +1,12 @@
-shap==0.50.0
-pylint==4.0.4
-autopep8==2.3.2
+# Runtime dependencies
+# scikit-learn 1.7+ is required for RocCurveDisplay(curve_kwargs=...)
+scikit-learn>=1.7
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.13
+joblib>=1.3
+
+# Code quality tools
+pylint>=3.0
+autopep8>=2.0
