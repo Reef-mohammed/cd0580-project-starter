@@ -1,0 +1,21 @@
+2026-11-06 20:35:20,406 churn_library - INFO - Loaded 10127 rows and 22 columns from ./data/bank_data.csv
+2026-11-06 20:35:20,406 root - INFO - Testing import_data: SUCCESS - file loaded
+2026-11-06 20:35:20,407 root - INFO - Testing import_data: SUCCESS - dataframe has 10127 rows and 22 columns
+2026-11-06 20:35:20,426 churn_library - INFO - Loaded 10127 rows and 22 columns from ./data/bank_data.csv
+2026-11-06 20:35:23,073 churn_library - INFO - EDA figures saved to ./images/eda
+2026-11-06 20:35:23,074 root - INFO - Testing perform_eda: SUCCESS - 5 EDA images saved to ./images/eda
+2026-11-06 20:35:23,091 churn_library - INFO - Loaded 10127 rows and 22 columns from ./data/bank_data.csv
+2026-11-06 20:35:23,116 root - INFO - Testing encoder_helper: SUCCESS - 5 encoded columns added
+2026-11-06 20:35:23,134 churn_library - INFO - Loaded 10127 rows and 22 columns from ./data/bank_data.csv
+2026-11-06 20:35:23,162 root - INFO - Testing perform_feature_engineering: SUCCESS - 7088 training rows and 3039 testing rows
+2026-11-06 20:35:23,182 churn_library - INFO - Loaded 10127 rows and 22 columns from ./data/bank_data.csv
+2026-11-06 20:35:39,871 churn_library - INFO - Random forest trained, best params: {'n_estimators': 200, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'sqrt', 'max_depth': 10, 'criterion': 'gini'}
+2026-11-06 20:35:39,894 churn_library - INFO - Logistic regression trained
+2026-11-06 20:35:42,245 churn_library - INFO - Result images saved to ./images/results
+2026-11-06 20:35:42,346 churn_library - INFO - Models saved to ./models
+2026-11-06 20:35:42,546 root - INFO - Testing train_models: SUCCESS - 2 models and 4 result images saved, models load and predict
+2026-11-06 20:35:42,567 churn_library - INFO - Loaded 10127 rows and 22 columns from ./data/bank_data.csv
+2026-11-06 20:35:43,893 root - INFO - Testing classification_report_image: SUCCESS - report images saved
+2026-11-06 20:35:43,916 churn_library - INFO - Loaded 10127 rows and 22 columns from ./data/bank_data.csv
+2026-11-06 20:35:44,808 root - INFO - Testing feature_importance_plot: SUCCESS - plot saved to ./images/results/feature_importances.png
+2026-11-06 20:35:44,810 root - INFO - All tests finished: SUCCESS
